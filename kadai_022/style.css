@@ -28,7 +28,7 @@ main {
 
 #parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contents {
@@ -41,7 +41,7 @@ main {
 
 h2 {
     font-size: 25px;
-    border-bottom: 3px dashed rgb(236, 122, 122);
+    border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
@@ -80,15 +80,11 @@ a:hover {
     h2 {
         font-size: 30px;
     }
-}
 
-@media screen and (max-width: 768px) {
     p {
         font-size: 25px;
     }
-}
 
-@media screen and (max-width: 768px) {
     #parent {
         display: block;
     }
